@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/cc/.nvm/versions/node/v6.13.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add --dev --exact --ignore-optional react-native-scripts
+
+PATH: 
+  /Users/cc/.nvm/versions/node/v6.13.0/bin:/Users/cc/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  6.13.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "rn-app",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://home.li-hongwei.com:14397/repository/npm-all/@expo/ngrok/-/ngrok-2.3.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123716:19)
+      at ClientRequest.g (events.js:292:16)
+      at emitNone (events.js:86:13)
+      at ClientRequest.emit (events.js:185:7)
+      at Socket.emitTimeout (_http_client.js:630:10)
+      at Socket.g (events.js:292:16)
+      at emitNone (events.js:86:13)
+      at Socket.emit (events.js:185:7)
+      at Socket._onTimeout (net.js:348:8)
+      at ontimeout (timers.js:386:11)
